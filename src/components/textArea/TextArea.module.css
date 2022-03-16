@@ -1,0 +1,9 @@
+.text_area {
+    width: 50%;
+    outline: none;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    padding: 20px;
+    border: 1px solid #5f2264;
+    color: #5f2264;
+}

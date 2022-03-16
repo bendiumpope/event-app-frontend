@@ -1,0 +1,77 @@
+.event_container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.event-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(32, 133, 228);
+}
+
+.event_form {
+    width: 80%;
+}
+
+.event_form > div {
+    width: 100%;
+}
+
+.title_input, .description_input, .category_input, .date_input, .address_input {
+    width: 100%;
+    outline: none;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+    padding: 12px;
+    border: 1px solid #000000;
+}
+
+.date_input {
+    margin-top: 2rem;
+}
+
+.event_button > button {
+    width: 18%;
+    padding: 16px;
+    border: none;
+    background: rgb(32, 133, 228);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    position: fixed;
+    top: 30%;
+    left: 75%;
+}
+
+
+
+
+.hotlist {
+    margin-bottom: 3rem;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert_text {
+    background: red;
+    position: absolute;
+}
+
+@media screen and (max-width: 560px) {
+    .event_container {
+        width: 100%;
+    }
+  }
